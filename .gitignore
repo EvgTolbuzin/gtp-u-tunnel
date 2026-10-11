@@ -1,0 +1,19 @@
+# Compiled
+*.o
+tun
+
+# Logs
+*.log
+
+# Packet captures
+*.pcap
+
+# Backups
+*.working
+*.backup
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
