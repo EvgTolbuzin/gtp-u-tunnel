@@ -2,7 +2,7 @@ CXX = g++
 CXXFLAGS = -std=c++20 -Wall -Wextra -O3
 
 TARGET = tun
-SRCS = src/tun.cpp
+SRCS = src/tun.cpp src/globals.cpp src/utils.cpp src/handlers.cpp
 OBJS = $(SRCS:.cpp=.o)
 
 all: $(TARGET)
